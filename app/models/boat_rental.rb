@@ -1,0 +1,2 @@
+class BoatRental < ApplicationRecord
+end
