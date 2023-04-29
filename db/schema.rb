@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema[7.0].define(version: 2023_04_13_164307) do
   create_table "about_pages", force: :cascade do |t|
-    t.string "about"
+    t.string "about_us"
     t.string "who_we_are"
     t.string "purpose"
     t.datetime "created_at", null: false

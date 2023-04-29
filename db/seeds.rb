@@ -22,7 +22,7 @@ BoatRental.create!(
 
 puts "✍🏻 Seeding about..."
 AboutPage.create!(
-    about: "I like boats I want to rent my boats.  I like money.",
+    about_us: "I like boats I want to rent my boats.  I like money.",
     who_we_are: "People duh",
     purpose: "To make some money"
 )

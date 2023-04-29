@@ -4,4 +4,5 @@ class BoatRentalsController < ApplicationController
         boat_rentals= BoatRental.all
         render json: boat_rentals
     end
+
 end
