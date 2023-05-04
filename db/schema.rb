@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_04_13_164307) do
+ActiveRecord::Schema[7.0].define(version: 2023_05_03_221554) do
   create_table "about_pages", force: :cascade do |t|
     t.string "about_us"
     t.string "who_we_are"
@@ -39,6 +39,11 @@ ActiveRecord::Schema[7.0].define(version: 2023_04_13_164307) do
     t.string "address"
     t.string "hours"
     t.string "holiday_hours"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "orders", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
